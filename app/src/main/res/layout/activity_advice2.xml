@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/diettips"
+    tools:context=".AdviceActivity2">
+
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="180dp"
+        android:gravity="left"
+        android:text="1-Eat a diverse range of meals that includes fruits, vegetables, whole grains, lean proteins, low-fat dairy, and healthy fats to obtain all the necessary nutrients for your body."
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="290dp"
+        android:gravity="left"
+        android:text="2- Reduce your intake of processed and high-fat foods to lower the risk of chronic conditions such as diabetes and heart disease, and opt for healthier alternatives."
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="400dp"
+        android:gravity="left"
+        android:text="3- To prevent foodborne illnesses, handle, cook and store food appropriately."
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="470dp"
+        android:gravity="left"
+        android:text="4- To prevent foodborne illnesses, handle, cook and store food appropriately."
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/Button_advice"
+        android:layout_width="104dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="50dp"
+        android:backgroundTint="@color/yellow"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+
+</RelativeLayout>

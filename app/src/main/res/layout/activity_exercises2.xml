@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/exercise1"
+    tools:context=".ExercisesActivity2"
+    android:gravity="center_horizontal">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="330dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="57dp"
+        app:srcCompat="@drawable/exercisechair" />
+
+    <TextView
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:gravity="left"
+        android:text="1. Sit on the edge of the chair and put your arms on your sides."
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <TextView
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="2. Slowly raise both arms towards the ceiling."
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <TextView
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="3. Lower them down again on the sides ."
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <TextView
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:gravity="center"
+        android:text="Sitting exercises for 12 weeks lead to significant improvements in the strength of your upper body."
+        android:textStyle="bold"
+        android:textSize="19sp" />
+
+
+    <Button
+        android:id="@+id/Button_exercise_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="130dp"
+        android:backgroundTint="@color/yellow"
+        android:text="back"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/Button_exercise_onee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="-45dp"
+        android:backgroundTint="@color/yellow"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:cornerRadius="20dp" />
+
+
+</LinearLayout>

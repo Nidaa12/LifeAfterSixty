@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sl"
+    tools:context=".ImproveSleepActivity2">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="1- Maintaining a regular sleep routine, including holidays days , is important for quality sleep."
+        android:textColor="@color/black"
+        android:layout_marginTop="140dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="2- Avoid daytime naps to prevent interference with nighttime sleep. then it cause  not sleep at night."
+        android:textColor="@color/black"
+        android:layout_marginTop="230dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="3- To improve sleep quality, limit afternoon intake of caffeine and sugar found in coffee, tea, soda, and desserts."
+        android:textColor="@color/black"
+        android:layout_marginTop="317dp"
+        android:textSize="19sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="4- Relaxing before bed is essential for quality sleep. Techniques like taking a warm bath or reading in bed can be helpful."
+        android:textColor="@color/black"
+        android:layout_marginTop="400dp"
+        android:textSize="20sp" />
+
+
+
+    <Button
+        android:id="@+id/Button_sleep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="50dp"
+        android:backgroundTint="@color/yellow"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

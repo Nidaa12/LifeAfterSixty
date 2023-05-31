@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/exercise2"
+    tools:context=".ExerciseThreeActivity2"
+    android:gravity="center_horizontal">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="330dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="59dp"
+        app:srcCompat="@drawable/exercisebody" />
+
+    <TextView
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:gravity="left"
+        android:text="1- Start by warming up for 5-10 minutes of light cardio exercises such as walking or cycling."
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <TextView
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="2- Start with bodyweight exercises such as rush, push-ups, start with two sets of 10-12 repetitions for each exercise."
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <TextView
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="3- Use free weights such as dumbbells or kettlebells to perform exercises such as biceps curls."
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <TextView
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:gravity="left"
+        android:text="4- Weight machines are used to perform exercises such as leg and chest compression."
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+
+    <Button
+        android:id="@+id/Button_exercise_three"
+        android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+    android:layout_marginLeft="130dp"
+    android:layout_marginTop="-17dp"
+    android:backgroundTint="@color/yellow"
+    android:text="back"
+    android:textColor="@color/white"
+    android:textSize="17sp"
+    app:cornerRadius="20dp" />
+
+</LinearLayout>
+
+
+
+
+
+
+

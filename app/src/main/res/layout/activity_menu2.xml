@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login11"
+    tools:context=".MenuActivity2">
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_marginBottom="16dp"
+        android:text="Welcome.."
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Life After Sixty App"
+        android:textColor="@color/black"
+        android:layout_marginTop="270dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/Button_adviceM"
+        android:layout_width="104dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="50dp"
+        android:backgroundTint="@color/yellow"
+        android:text="Advices"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+    <Button
+        android:id="@+id/Button_exerciseM"
+        android:layout_width="104dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="50dp"
+        android:backgroundTint="@color/yellow"
+        android:text="Exwecises"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+    <Button
+        android:id="@+id/Button_sleepM"
+        android:layout_width="104dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="50dp"
+        android:backgroundTint="@color/yellow"
+        android:text="Improve Sleeping"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+    <Button
+        android:id="@+id/Button_logoutM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="200dp"
+        android:backgroundTint="@color/yellow"
+        android:text="logout"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/Button_backM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="110dp"
+        android:backgroundTint="@color/yellow"
+        android:text="back .."
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+
+</RelativeLayout>
